@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+
+h1 {
+    font-size: 1.6em;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: red;
+    transition: color 0.3s ease;
+}
+
+#header {
+    /*  */
+    display: flex;
+    border: 10px solid transparent;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+#navbarList {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+#navbarList li a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+#navbarList li a:hover {
+    color: white;
+    /* Change color on hover */
+}
